@@ -1,0 +1,45 @@
+.my-nav {                                 /*選單欄位*/
+  background: #003377;
+}
+.my-nav ul {
+  margin: 5px 0;
+  float: right;
+}
+.my-btn {                                 /*按鈕大小*/
+  margin: 5px;
+  width: 120px;
+}
+.btn-default {
+  border: #fff;
+}
+/***********/
+.navbar-default .navbar-nav>li>a {        /*按鈕動作前*/
+  color: #003377;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:focus,   /*按鈕動作後*/
+.navbar-default .navbar-nav>li>a:hover {  /*按鈕動作中*/
+  color: #fff;
+}
+/***********/
+.navbar-default .navbar-brand {
+  color: #fff;          /*標題 color*/
+}
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+  color: #CCEEFF;
+}
+/***********/
+hr.bar {
+  border: 2px solid #003377;
+  width: 100%;
+}
+
+.center-block {
+  margin-top: 10px;
+}
+
+
+body {
+    padding-top: 75px;
+}
